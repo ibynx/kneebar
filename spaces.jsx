@@ -7,16 +7,26 @@ const style = {
   padding: "0 8px",
   display: "grid",
   gridAutoFlow: "column",
-  gridGap: "16px",
+  gridGap: "14px",
   position: "fixed",
   overflow: "hidden",
-  left: "0px",
-  top: "0px",
+  left: "50%",
+  top: styles.gap,
   fontFamily: styles.fontFamily,
   lineHeight: styles.lineHeight,
   fontSize: styles.fontSize,
   color: styles.colors.dim,
-  fontWeight: styles.fontWeight
+  fontWeight: styles.fontWeight,
+  
+  backgroundColor: styles.colors.bg,
+  //marginTop: styles.gap,
+  
+  textAlign: "center",
+  transform: "translate(-50%)",
+  
+  borderRadius: styles.borderRadius,
+  boxShadow: styles.boxShadow,
+  border: styles.border,
 };
 
 export const refreshFrequency = false;

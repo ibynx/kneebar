@@ -14,13 +14,20 @@ const style = {
   gridGap: "20px",
   position: "fixed",
   overflow: "hidden",
-  right: "0px",
-  top: "0px",
+  right: styles.gap,
+  top: styles.gap,
   color: styles.colors.dim,
   fontFamily: styles.fontFamily,
   fontSize: styles.fontSize,
   lineHeight: styles.lineHeight,
-  fontWeight: styles.fontWeight
+  fontWeight: styles.fontWeight,
+  
+  backgroundColor: styles.colors.bg,
+  marginRight: "40px",  // to match uberplayer
+  
+  borderRadius: styles.borderRadius,
+  boxShadow: styles.boxShadow,
+  border: styles.border,
 };
 
 export const refreshFrequency = 10000;
@@ -39,8 +46,8 @@ export const render = ({ output }) => {
   return (
     <div style={style}>
       <Cpu output={data.cpu} />
-      <Wifi output={data.wifi} />
-      <Battery output={data.battery} />
+      {/* <Wifi output={data.wifi} /> */}
+      {/* <Battery output={data.battery} /> */}
       <DateTime output={data.datetime} />
       <Dnd output={data.dnd} />
     </div>
