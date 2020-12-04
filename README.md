@@ -1,4 +1,4 @@
-# nibar
+# kneebar
 
 Candified fork of [nibar](https://github.com/kkga/nibar/).
 
