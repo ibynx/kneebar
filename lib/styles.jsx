@@ -1,14 +1,15 @@
 export default {
   colors: {
     fg: "rgba(255,255,255,0.8)",
-    dim: "rgba(255,255,255,0.6)",
-    bg: "#9e2a2b",
+    dim: "#CCA60C", // text color
+    bg: "#5a189a",
     red: "#ff8700",
-    accent: "#5fafaf"
+    accent: "#FF8FF6",  // determines focus color
+    accentText: "black",
   },
   fontSize: "14px",
   lineHeight: "24px",
-  fontFamily: "'Fantasque Sans Mono', 'Iosevka', 'SF Mono', monospace",
+  fontFamily: "'Overpass', 'Fantasque Sans Mono', 'Iosevka', 'SF Mono', monospace",
   gap: "5px",
   borderRadius: "20px",
   boxShadow: "0px 1px 1px 1px rgba(0,0,0,0.15)",
